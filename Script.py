@@ -1,6 +1,8 @@
 # This code allows you to add many people to a group with ease, follow the steps below to get started
 
-# 1) COPY PASTE THE ENTIRE CODE AND PASTE IT INTO GOOGLE COLLAB (https://colab.research.google.com/)
+#######################################################################################################
+# 1) COPY PASTE THE ENTIRE CODE AND PASTE IT INTO GOOGLE COLLAB (https://colab.research.google.com/)  #
+#######################################################################################################
 
 !pip install telethon
 
@@ -14,7 +16,7 @@ from telethon.tl.functions.channels import InviteToChannelRequest
 
 # 2) Replace api_id, api_hash, phone with your own values:
   # a) Log in to your Telegram core: https://my.telegram.org
-  # b) Click on "API development tools" and fill out the form
+  # b) Click on "API development tools" (not "API") and fill out the form
   # c) Replace your api_id and api_hash required for user authorization below
   #  *** THIS ONLY NEEDS TO BE DONE ONCE, YOU CAN REUSE YOUR api_id & api_hash FOR AS OTHER GROUPS AND USERS) ***
 api_id = '12345678'
