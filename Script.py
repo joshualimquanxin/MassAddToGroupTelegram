@@ -20,24 +20,25 @@ from telethon.tl.functions.channels import InviteToChannelRequest
 api_id = '12345678'
 api_hash = 'abcdefg123456hijklmnop7890123qrs'
 
-# 3) replace your phone number in this format +6512345678
+# 3) Replace your phone number in this format +6512345678
 phone = '+6512345678'
 
-# 4) Insert usernames here (with or without @ is okay)
+# 4) Replace the usernames you want to add to the group chat below (with or without @ is okay)
 csv = '''
     @insert_users_here
     @johnsmith
     jane_doe
     @michael_wilson
     '''
-# 5) Insert the group chat link (e.g. https://t.me/+K3zmnN4sCjo1NWQ1)
+# 5) Replace the group chat link below (e.g. https://t.me/+K3zmnN4sCjo1NWQ1)
 group_link = 'https://t.me/insertlinkhere'
 
-# 6) Insert your invite message here
+# 6) Replace your invite message below
 my_invite_message = "Rewrite your invite message here"
 
 # 7) Run the code in google collab when you have completed step 1 to step 6 by pressing the play button
 # **********************************************************************************************************************************************
+# YOU DO NOT NEED TO CHANGE ANYTHING BEYOND THIS
 
 try:
     client.disconnect()
