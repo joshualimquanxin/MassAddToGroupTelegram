@@ -12,6 +12,7 @@ from telethon.tl.functions.channels import InviteToChannelRequest
   # a) Log in to your Telegram core: https://my.telegram.org
   # b) Click on "API development tools" and fill out the form
   # c) Replace your api_id and api_hash required for user authorization below
+  #  *** THIS ONLY NEEDS TO BE DONE ONCE, YOU CAN REUSE YOUR api_id & api_hash FOR AS OTHER GROUPS AND USERS) ***
 api_id = '12345678'
 api_hash = 'abcdefg123456hijklmnop7890123qrs'
 
