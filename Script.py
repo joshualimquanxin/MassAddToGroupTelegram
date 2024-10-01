@@ -19,9 +19,9 @@ from telethon.tl.functions.channels import InviteToChannelRequest
   # b) Click on "API development tools" (not "API") and fill out the form
   # c) Replace your api_id and api_hash required for user authorization below
   #  *** THIS ONLY NEEDS TO BE DONE ONCE, YOU CAN REUSE YOUR api_id & api_hash FOR AS OTHER GROUPS AND USERS) ***
-api_id = '12345678'
-api_hash = 'abcdefg123456hijklmnop7890123qrs'
-
+api_id = '00000000'
+api_hash = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+            
 # 3) Replace your phone number in this format +6512345678
 phone = '+6512345678'
 
