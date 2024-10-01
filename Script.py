@@ -1,3 +1,7 @@
+# This code allows you to add many people to a group with ease, follow the steps below to get started
+
+# 1) COPY PASTE THE ENTIRE CODE AND PASTE IT INTO GOOGLE COLLAB (https://colab.research.google.com/)
+
 !pip install telethon
 
 import asyncio
@@ -8,7 +12,7 @@ from telethon.tl.functions.channels import InviteToChannelRequest
 # The only changes you need to make are within the two asterisk lines below
 # **********************************************************************************************************************************************
 
-# 1) Replace api_id, api_hash, phone with your own values:
+# 2) Replace api_id, api_hash, phone with your own values:
   # a) Log in to your Telegram core: https://my.telegram.org
   # b) Click on "API development tools" and fill out the form
   # c) Replace your api_id and api_hash required for user authorization below
@@ -16,21 +20,23 @@ from telethon.tl.functions.channels import InviteToChannelRequest
 api_id = '12345678'
 api_hash = 'abcdefg123456hijklmnop7890123qrs'
 
-# 2) replace your phone number in this format +6512345678
+# 3) replace your phone number in this format +6512345678
 phone = '+6512345678'
 
-# 3) Insert usernames here (with or without @ is okay)
+# 4) Insert usernames here (with or without @ is okay)
 csv = '''
     @insert_users_here
     @johnsmith
     jane_doe
     @michael_wilson
     '''
-# 4) Insert the group chat link (e.g. https://t.me/+K3zmnN4sCjo1NWQ1)
+# 5) Insert the group chat link (e.g. https://t.me/+K3zmnN4sCjo1NWQ1)
 group_link = 'https://t.me/insertlinkhere'
 
-# 5) Insert your invite message here
+# 6) Insert your invite message here
 my_invite_message = "Rewrite your invite message here"
+
+# 7) Run the code in google collab when you have completed step 1 to step 6 by pressing the play button
 # **********************************************************************************************************************************************
 
 try:
